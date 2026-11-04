@@ -54,7 +54,7 @@ font-size: 15px;
 }
 .bi-person-circle {
     font-size: 28px;
-    color: #d5a24d;  
+    color: #d5a24;  
 }
 
 .usuario_botton p {
@@ -124,12 +124,21 @@ gap: 15px;
     background: #3a2a23;
     color: #FFFFFF;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.export_button:hover {
+    background: #FFFFFF;
+    color: #3a2a23;
+    border: 2px solid #3a2a23
+
 }
 /* estilo de las seccion 2/ */
 
 .kpi_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
 
    
 }
@@ -137,6 +146,12 @@ gap: 15px;
     border: 2px solid #ebe6e0;
     border-radius: 14px;
     padding: 14px;
+    transition: all 0.2s ease;
+}
+
+.kpi_card:hover {
+    border-color: #eca202;
+    transform: translateY(-4px);
 }
 
 .kpi_head {
