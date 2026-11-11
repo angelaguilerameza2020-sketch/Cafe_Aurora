@@ -218,3 +218,68 @@ h3 {
 color: #BB8843;
 font-weight: bold;
 }
+
+/* ESTILOS DE LA SECCIÓN  */
+
+/* CABECERA */
+
+.products-panel {
+    border: 2px solid #ebe6e0; 
+    border-radius: 8px;
+    padding: 17px;
+    background: #FFFFFF;
+}
+
+
+.products-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.heading-copy h3 {
+
+    font-size: 16px;
+    color: #402d26;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+    font-weight: bold;
+}
+
+.heading-copy p {
+    margin: 8px 0 0 ;
+    color: #9b928c;
+    font-size: 12px;
+}
+
+.link {
+
+    color: #5b4e46;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.link:hover {
+
+    text-decoration: underline;
+}
+
+/* ESTILOS DE LAS TABLAS */
+
+.table-wrap {
+
+    height: 200px;
+    overflow-x: auto;
+
+}
+
+.products-table {
+
+    width: 100%;
+    min-width: 580px;
+}
+
+
